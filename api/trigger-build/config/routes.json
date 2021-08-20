@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/trigger-build",
+      "handler": "trigger-build.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/trigger-build",
+      "handler": "trigger-build.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/trigger-build",
+      "handler": "trigger-build.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

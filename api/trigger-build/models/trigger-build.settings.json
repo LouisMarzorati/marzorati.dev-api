@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "trigger_builds",
+  "info": {
+    "name": "trigger_build"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "build_required": {
+      "type": "boolean"
+    }
+  }
+}
